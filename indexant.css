@@ -1,11 +1,10 @@
-
 header{
     padding: 25px 0px 0px 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 20%;
+    height: 60px;
     color: rgb(243, 224, 224);
     background-color: rgb(205, 18, 18);
 }
@@ -14,26 +13,31 @@ header{
     font-size: 20px;
     color: black;
 }
-article{   
+article{
+    padding: 50px 0px 0px 50px;
     display: flex;
-    flex-direction: row;
-    flex-wrap:wrap;
-    
+    height: 80%;
 }
 #mapa{    
-    width: 45vw;
-    height: 60vh;
+    width: 750px;    
+    height: 700px;
+    justify-content: center;
     background-color: rgb(215, 246, 225);
-
 }
 #pronostico{
-    width: 45vw;
-    margin: 0.5em 0.5em 0.5em 0.5em;
+    width: 50%;
     background-color: rgb(213, 242, 213);
-    
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items:center;
+    padding: 10px 0px 10px 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 
 #pronostico>div>label{
+    
     font-size: 15px;
     font-weight: bold;
 }
@@ -55,7 +59,8 @@ span::after{
     white-space: pre;
 }
 .pronost{
-    margin:auto;
+    width: 500px;
+    height: 300px;
     border: 2px solid rgb(255, 0, 38);
 }
 .iconito {
@@ -64,32 +69,4 @@ span::after{
     margin: 10px 10px 5px 55px;   
     width: 70px; 
     height: 70px;   
-}
-@media (max-width: 750px) {
-    
-    article {
-        display:inline-block;
-        align-items: center;
-        width: 100%;
-    }
-    #mapa {
-        width: 100%;
-        height: 60vh;
-        float:inline-start;
-    }
-    #pronostico{
-        width: 100%;
-        
-    }
-}
-@media (max-width: 535px) {
-    header{        
-        width: 100%;
-    }
-    
-    
-    #pronostico{
-        width: 100%;
-        
-    }
 }
