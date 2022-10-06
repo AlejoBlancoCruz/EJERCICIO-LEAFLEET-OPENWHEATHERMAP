@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+    <Document>
+        <Placemark id="placemark1">
+            <name>Alto Teror</name>
+            <description>El Alamo</description>
+            <Point>
+                <coordinates>-15.533285202399515,28.065004259747762</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bajo Teror</name>
+            <description>Basilica.</description>
+            <Point>
+                <coordinates>-15.548048079956843,28.060308386695862</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Convento Dominicas</name>
+            <description>Convento</description>
+            <Point>
+                <coordinates>-15.544000351749146,28.067052086528804</coordinates>
+            </Point>            
+        </Placemark>
+        <Placemark> 
+            <LineString>
+             <coordinates>
+                -15.533285202399515,28.065004259747762 -15.548048079956843,28.060308386695862 -15.544000351749146,28.067052086528804
+              
+             </coordinates>
+            </LineString>
+            
+            <Style> 
+             <LineStyle>  
+              <color>#ff0000ff</color>
+             </LineStyle> 
+            </Style>
+           </Placemark>
+    </Document>
+
+</kml>
